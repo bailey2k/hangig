@@ -1,0 +1,11 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Xcode build files
+DerivedData/
+xcuserdata/
+.swiftpm
+.build/
+
+# Ignore Firebase files (data leak)
+GoogleService-Info.plist
